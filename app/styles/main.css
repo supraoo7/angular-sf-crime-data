@@ -1,0 +1,11 @@
+.container-fluid {
+  padding: 0;
+}
+
+.angular-google-map-container {
+  height: 800px;
+}
+
+.date, .district, .address, .category, .description, .resolution {
+  text-transform: capitalize;
+}

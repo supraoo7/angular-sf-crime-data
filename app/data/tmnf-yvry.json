@@ -1,0 +1,101 @@
+[ {
+  "time" : "23:59",
+  "category" : "SECONDARY CODES",
+  "pddistrict" : "INGLESIDE",
+  "pdid" : "15093203815200",
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-122.436154623588",
+    "latitude" : "37.7128189051559",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+  },
+  "address" : "0 Block of CORDOVA ST",
+  "descript" : "DOMESTIC VIOLENCE",
+  "dayofweek" : "Saturday",
+  "resolution" : "NONE",
+  "date" : "2015-10-24T00:00:00",
+  "y" : "37.7128189051559",
+  "x" : "-122.436154623588",
+  "incidntnum" : "150932038"
+}
+, {
+  "time" : "23:59",
+  "category" : "VANDALISM",
+  "pddistrict" : "INGLESIDE",
+  "pdid" : "15093203828160",
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-122.436154623588",
+    "latitude" : "37.7128189051559",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+  },
+  "address" : "0 Block of CORDOVA ST",
+  "descript" : "MALICIOUS MISCHIEF, VANDALISM OF VEHICLES",
+  "dayofweek" : "Saturday",
+  "resolution" : "NONE",
+  "date" : "2015-10-24T00:00:00",
+  "y" : "37.7128189051559",
+  "x" : "-122.436154623588",
+  "incidntnum" : "150932038"
+}
+, {
+  "time" : "23:46",
+  "category" : "DRUG/NARCOTIC",
+  "pddistrict" : "MISSION",
+  "pdid" : "15093158516622",
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-122.414227348919",
+    "latitude" : "37.7532831691873",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+  },
+  "address" : "2700 Block of FOLSOM ST",
+  "descript" : "POSSESSION OF COCAINE FOR SALES",
+  "dayofweek" : "Saturday",
+  "resolution" : "ARREST, BOOKED",
+  "date" : "2015-10-24T00:00:00",
+  "y" : "37.7532831691873",
+  "x" : "-122.414227348919",
+  "incidntnum" : "150931585"
+}
+, {
+  "time" : "23:46",
+  "category" : "DRUG/NARCOTIC",
+  "pddistrict" : "MISSION",
+  "pdid" : "15093158516652",
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-122.414227348919",
+    "latitude" : "37.7532831691873",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+  },
+  "address" : "2700 Block of FOLSOM ST",
+  "descript" : "POSSESSION OF METH-AMPHETAMINE FOR SALE",
+  "dayofweek" : "Saturday",
+  "resolution" : "ARREST, BOOKED",
+  "date" : "2015-10-24T00:00:00",
+  "y" : "37.7532831691873",
+  "x" : "-122.414227348919",
+  "incidntnum" : "150931585"
+}
+, {
+  "time" : "23:46",
+  "category" : "FORGERY/COUNTERFEITING",
+  "pddistrict" : "MISSION",
+  "pdid" : "15093158509166",
+  "location" : {
+    "needs_recoding" : false,
+    "longitude" : "-122.414227348919",
+    "latitude" : "37.7532831691873",
+    "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+  },
+  "address" : "2700 Block of FOLSOM ST",
+  "descript" : "IDENTIFICATION, GOVERNMENT, POSSESS, MAKE OR SELL FALSE",
+  "dayofweek" : "Saturday",
+  "resolution" : "ARREST, BOOKED",
+  "date" : "2015-10-24T00:00:00",
+  "y" : "37.7532831691873",
+  "x" : "-122.414227348919",
+  "incidntnum" : "150931585"
+}
+]

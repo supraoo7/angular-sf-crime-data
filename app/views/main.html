@@ -1,0 +1,61 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <ui-gmap-google-map center="map.center" zoom="map.zoom">
+        <!-- <ui-gmap-marker coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id">
+        </ui-gmap-marker> -->
+        <ui-gmap-markers models="markers" coords="'self'" icon="'icon'">
+          <ui-gmap-windows show="show">
+            <div ng-non-bindable>
+              <p class="date">{{ this.date | date: 'M/d/yy' }} {{ this.time | formatTime }}</p>
+              <p class="district">District: {{ this.district | lowercase }}</p>
+              <p class="address">{{ this.address | lowercase }}</p>
+              <p class="category">Category: {{ this.category | lowercase }}</p>
+              <p class="description">Description: {{ this.description | lowercase }}</p>
+              <p class="resolution">Resolution: {{ this.resolution | lowercase }}</p>
+            </div>
+          </ui-gmap-windows>
+        </ui-gmap-markers>
+      </ui-gmap-google-map>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <button type="button" ng-click="loadNextSetOfData()">Next 50</button>
+    </div>
+    <div class="col-sm-4">
+      <div class="form-group">
+        <input type="radio" name="district" value="bayview" ng-model="district" ng-change="loadDistrict(district, 50)"> Bayview
+      </div>
+      <div class="form-group">
+        <input type="radio" name="district" value="central" ng-model="district" ng-change="loadDistrict(district, 50)"> Central
+      </div>
+      <div class="form-group">
+        <input type="radio" name="district" value="ingleside" ng-model="district" ng-change="loadDistrict(district, 50)"> Ingleside
+      </div>
+      <div class="form-group">
+        <input type="radio" name="district" value="mission" ng-model="district" ng-change="loadDistrict(district, 50)"> Mission
+      </div>
+      <div class="form-group">
+        <input type="radio" name="district" value="northern" ng-model="district" ng-change="loadDistrict(district, 50)"> Northern
+      </div>
+      <div class="form-group">
+        <input type="radio" name="district" value="park" ng-model="district" ng-change="loadDistrict(district, 50)"> Park
+      </div>
+      <div class="form-group">
+        <input type="radio" name="district" value="richmond" ng-model="district" ng-change="loadDistrict(district, 50)"> Richmond
+      </div>
+      <div class="form-group">
+        <input type="radio" name="district" value="southern" ng-model="district" ng-change="loadDistrict(district, 50)"> Southern
+      </div>
+      <div class="form-group">
+        <input type="radio" name="district" value="richmond" ng-model="district" ng-change="loadDistrict(district, 50)"> Taraval
+      </div>
+      <div class="form-group">
+        <input type="radio" name="district" value="tenderloin" ng-model="district" ng-change="loadDistrict(district, 50)"> Tenderloin
+      </div>
+    </div>
+  </div>
+</div>
